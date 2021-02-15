@@ -1,0 +1,98 @@
+2021-02-13 13:07:45.937  INFO 7504 --- [main] s.m.Section6CreateRESTCurdAPIApplication : Starting Section6CreateRESTCurdAPIApplication using Java 12.0.2 on DESKTOP-8HSI2JK with PID 7504 (D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API\target\classes started by Lenovo in D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API)
+2021-02-13 13:07:45.941  INFO 7504 --- [main] s.m.Section6CreateRESTCurdAPIApplication : The following profiles are active: QA
+2021-02-13 13:07:46.636  INFO 7504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 13:07:46.687  INFO 7504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2021-02-13 13:07:47.132  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 13:07:47.139  INFO 7504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-13 13:07:47.139  INFO 7504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 13:07:47.239  INFO 7504 --- [main] o.a.c.c.C.[.[localhost].[/productcart]   : Initializing Spring embedded WebApplicationContext
+2021-02-13 13:07:47.240  INFO 7504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2021-02-13 13:07:47.375  INFO 7504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 13:07:47.632  INFO 7504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 13:07:47.679  INFO 7504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-13 13:07:47.719  INFO 7504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-13 13:07:47.855  INFO 7504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-13 13:07:47.976  INFO 7504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-13 13:07:48.416  INFO 7504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-13 13:07:48.428  INFO 7504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:07:48.858  WARN 7504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 13:07:48.949  INFO 7504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:07:49.145  INFO 7504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productcart'
+2021-02-13 13:07:49.154  INFO 7504 --- [main] s.m.Section6CreateRESTCurdAPIApplication : Started Section6CreateRESTCurdAPIApplication in 3.683 seconds (JVM running for 5.17)
+2021-02-13 13:08:03.380  INFO 9164 --- [main] Section6CreateRESTCurdAPIApplicationTest : Starting Section6CreateRESTCurdAPIApplicationTest using Java 12.0.2 on DESKTOP-8HSI2JK with PID 9164 (started by Lenovo in D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API)
+2021-02-13 13:08:03.383  INFO 9164 --- [main] Section6CreateRESTCurdAPIApplicationTest : The following profiles are active: QA
+2021-02-13 13:08:04.864  INFO 9164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 13:08:04.961  INFO 9164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2021-02-13 13:08:06.079  INFO 9164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 13:08:07.830  INFO 9164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 13:08:07.978  INFO 9164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-13 13:08:08.239  INFO 9164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-13 13:08:08.473  INFO 9164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-13 13:08:08.717  INFO 9164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-13 13:08:09.940  INFO 9164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-13 13:08:09.956  INFO 9164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:08:11.283  WARN 9164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 13:08:11.666  INFO 9164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:08:12.493  INFO 9164 --- [main] Section6CreateRESTCurdAPIApplicationTest : Started Section6CreateRESTCurdAPIApplicationTest in 9.876 seconds (JVM running for 11.138)
+2021-02-13 13:08:13.327  INFO 7504 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productcart]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 13:08:13.329  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-13 13:08:13.332  INFO 7504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-13 13:08:13.685  INFO 7504 --- [http-nio-8080-exec-1] c.t.s.m.c.product.ProductRESTController  : Product details: [Product [id=1, name=Apple TV, description=TV, price=5000.0]]
+2021-02-13 13:08:13.929  INFO 9164 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:08:13.939  INFO 9164 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:08:13.947  INFO 9164 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 13:08:14.006  INFO 9164 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-13 13:09:38.888  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-13 13:09:39.770  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:09:39.771  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:09:39.774  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 13:09:39.787  INFO 7504 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-13 13:10:24.446  INFO 3956 --- [main] s.m.Section6CreateRESTCurdAPIApplication : Starting Section6CreateRESTCurdAPIApplication using Java 12.0.2 on DESKTOP-8HSI2JK with PID 3956 (D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API\target\classes started by Lenovo in D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API)
+2021-02-13 13:10:24.449  INFO 3956 --- [main] s.m.Section6CreateRESTCurdAPIApplication : The following profiles are active: dev
+2021-02-13 13:10:25.020  INFO 3956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 13:10:25.068  INFO 3956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2021-02-13 13:10:25.532  INFO 3956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-13 13:10:25.539  INFO 3956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-13 13:10:25.540  INFO 3956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-13 13:10:25.645  INFO 3956 --- [main] o.a.c.c.C.[.[localhost].[/productcart]   : Initializing Spring embedded WebApplicationContext
+2021-02-13 13:10:25.645  INFO 3956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1150 ms
+2021-02-13 13:10:25.778  INFO 3956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 13:10:26.042  INFO 3956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 13:10:26.084  INFO 3956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-13 13:10:26.127  INFO 3956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-13 13:10:26.273  INFO 3956 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-13 13:10:26.419  INFO 3956 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-13 13:10:26.866  INFO 3956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-13 13:10:26.875  INFO 3956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:10:27.268  WARN 3956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 13:10:27.356  INFO 3956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:10:27.561  INFO 3956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productcart'
+2021-02-13 13:10:27.570  INFO 3956 --- [main] s.m.Section6CreateRESTCurdAPIApplication : Started Section6CreateRESTCurdAPIApplication in 3.457 seconds (JVM running for 4.837)
+2021-02-13 13:10:39.780  INFO 12432 --- [main] Section6CreateRESTCurdAPIApplicationTest : Starting Section6CreateRESTCurdAPIApplicationTest using Java 12.0.2 on DESKTOP-8HSI2JK with PID 12432 (started by Lenovo in D:\Spring-multimodule-with-Springboot-workspace\Learn-Spring-boot-in-simple-steps\Section-6-Create-REST-CRUD-API)
+2021-02-13 13:10:39.782  INFO 12432 --- [main] Section6CreateRESTCurdAPIApplicationTest : The following profiles are active: dev
+2021-02-13 13:10:41.481  INFO 12432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-13 13:10:41.635  INFO 12432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2021-02-13 13:10:43.152  INFO 12432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-13 13:10:44.447  INFO 12432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-13 13:10:44.572  INFO 12432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-13 13:10:44.823  INFO 12432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-13 13:10:45.128  INFO 12432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-13 13:10:45.376  INFO 12432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-02-13 13:10:46.719  INFO 12432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-13 13:10:46.739  INFO 12432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:10:48.885  WARN 12432 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-13 13:10:49.403  INFO 12432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:10:50.371  INFO 12432 --- [main] Section6CreateRESTCurdAPIApplicationTest : Started Section6CreateRESTCurdAPIApplicationTest in 11.324 seconds (JVM running for 12.921)
+2021-02-13 13:10:51.180  INFO 3956 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productcart]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-13 13:10:51.182  INFO 3956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-13 13:10:51.185  INFO 3956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-02-13 13:10:51.333  INFO 3956 --- [http-nio-8080-exec-1] c.t.s.m.c.product.ProductRESTController  : Product details: [Product [id=1, name=Apple TV, description=TV, price=5000.0]]
+2021-02-13 13:10:51.642  INFO 12432 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:10:51.731  INFO 12432 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:10:51.739  INFO 12432 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 13:10:51.903  INFO 12432 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-13 13:11:29.394  INFO 3956 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-13 13:11:30.207  INFO 3956 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-13 13:11:30.208  INFO 3956 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-13 13:11:30.211  INFO 3956 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-13 13:11:30.226  INFO 3956 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
