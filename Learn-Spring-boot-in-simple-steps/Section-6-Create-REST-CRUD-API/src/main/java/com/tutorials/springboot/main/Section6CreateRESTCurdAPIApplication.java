@@ -5,6 +5,7 @@ package com.tutorials.springboot.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Import;
 
 import com.tutorials.springboot.main.config.CacheConfig;
@@ -21,6 +22,7 @@ import com.tutorials.springboot.main.config.CacheConfig;
  */
 @SpringBootApplication
 @Import(CacheConfig.class)
+@EnableCaching
 public class Section6CreateRESTCurdAPIApplication {
 
 	/**
