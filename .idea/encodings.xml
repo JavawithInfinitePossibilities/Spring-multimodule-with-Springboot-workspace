@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Domain-Object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-12-Thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-14-Spring-Batch-DB-Operation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-14-Spring-Batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-16-Messaging-and-Spring-JMS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-3-Basics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Section-6-Create-REST-CRUD-API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

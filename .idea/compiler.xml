@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for Learn-Spring-boot-in-simple-steps" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+        </processorPath>
+        <module name="Section-12-Thymeleaf" />
+        <module name="Domain-Object" />
+        <module name="Section-14-Spring-Batch-DB-Operation" />
+        <module name="Section-16-Messaging-and-Spring-JMS" />
+        <module name="Section-14-Spring-Batch" />
+        <module name="Section-3-Basics" />
+        <module name="Section-6-Create-REST-CRUD-API" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Domain-Object" options="-parameters" />
+      <module name="Section-12-Thymeleaf" options="-parameters" />
+      <module name="Section-14-Spring-Batch" options="-parameters" />
+      <module name="Section-14-Spring-Batch-DB-Operation" options="-parameters" />
+      <module name="Section-16-Messaging-and-Spring-JMS" options="-parameters" />
+      <module name="Section-3-Basics" options="-parameters" />
+      <module name="Section-6-Create-REST-CRUD-API" options="-parameters" />
+    </option>
+  </component>
+</project>
